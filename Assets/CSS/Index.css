@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding-top: 0;
+}
+
+body{
+    background-color: white;
+
+
+}
+
+.head{
+    background-image:url("../pictures/header.png");
+    padding-top: 10px;
+    background-size: cover;
+    height: 80vh;
+    width: 75%;
+}
+.Links{
+    text-align: center;
+    
+}
+
+nav .Links li{
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}
+.Links .login{
+    background-color: yellow;
+    color: black;
+
+}
+.Links .Signup{
+    background-color: black;
+    color: yellow;
+}
+.header{
+    display: flex;
+}
