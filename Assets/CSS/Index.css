@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding-top: 0;
 }
@@ -9,23 +10,30 @@ body{
 
 }
 
-.head{
-    background-image:url("../pictures/header.png");
-    padding-top: 10px;
+.sect1{
+    background:url("https://drive.google.com/uc?export=view&id=1MpFJUVxBxTTFR_eBrzQ8WU39ZTwvHJ3O");
+    padding-top: 20px;
     background-size: cover;
-    height: 80vh;
-    width: 75%;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100vh;
+   
 }
 .Links{
     text-align: center;
+    padding-left: 150px;
     
 }
-
-nav .Links li{
+.Links li{
     display: inline-block;
     padding: 20px;
+    
+}
+.Links li a{
+    text-decoration: none;
     color: white;
 }
+
 .Links .login{
     background-color: yellow;
     color: black;
@@ -35,6 +43,18 @@ nav .Links li{
     background-color: black;
     color: yellow;
 }
-.header{
-    display: flex;
+.heading{
+    font-size: 60px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    color: #FAFF00;
+    font-family: 'Adamina', serif;
+
 }
+.text{
+    padding-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #a39d9d;
+    font-size: 30px;
+}
+
