@@ -152,11 +152,10 @@ body{
     border-top: 1px solid #dbdad8;
     display: flex;
 }
-.icons p{
+.icons {
+    display: flex;
     font-size: 1px;
     padding: 1px;
     text-align: center;
 }
-.icons div{
-    min-width: 33.333%;
-}
+
