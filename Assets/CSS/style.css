@@ -36,6 +36,9 @@ body{
     border-top-right-radius: 2vw;
 
 }    
+.nav-links ul li button i{
+    color: white;
+}
 span{
     color: white;
    
@@ -121,8 +124,9 @@ footer{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #5c5b5a;
-    margin-left: 100px;
-    margin-right: 100PX;
+    padding-left: 100px;
+    padding-right: 100px;
+   
 }
 .heading{
     font-size: 40px;
@@ -141,4 +145,42 @@ span{
     border: none;
     border-top-right-radius: 2vw;
 }
+.btn button i{
+    color: white;
+
+}
+.body{
+    padding-top: 50px;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+  
+}
+.footer-icons{
+    padding-left: 100px;
+    padding-right: 200px;
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.links ul{
+    list-style: none;
+}
+.links ul li{
+    color: #f4f2ef;
+    font-size: 15px;
+    padding-bottom: 25px;
+
+}
+.links ul li p{
+    color: white;
+    font-size: 20px;
+
+}    
 
