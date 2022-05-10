@@ -131,6 +131,8 @@ body{
 }
 .two{
     margin-top: 30px;
+    padding-bottom: 120px;
+
 }
 
 .movers-images{
@@ -159,3 +161,19 @@ body{
     text-align: center;
 }
 
+footer{
+    background-color: black;
+    max-height: 90vh;
+    color: white;
+    padding: 0 10vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.footer-name p{
+    font-size: 30px;
+    padding: 6vw 0 4vw ;
+    border-bottom: 1px solid #5c5b5a;
+}
+span{
+    color: #dda509e0;
+}
