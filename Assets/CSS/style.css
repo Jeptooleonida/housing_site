@@ -8,6 +8,7 @@ body{
 }
 .head-sec{
     height: 45vh;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
 }
 .nav-links{
@@ -49,6 +50,32 @@ span{
     font-family: Arial, Helvetica, sans-serif;
 }
 .name{
-    font-size: 2vw;
+    font-size: 35px;
     margin-bottom: 1vw;
+}
+.location{
+    font-size: 15px;
+    float: right;
+    color: #c9c8c7;
+}
+.pictures-div{
+    margin: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+.pics{
+    width: 65%;
+}
+.pics .big-pic img{
+    height: auto;
+    margin-bottom: 20px;
+}
+.small-pics{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.small-pics img{
+    width: 12.5%;
 }

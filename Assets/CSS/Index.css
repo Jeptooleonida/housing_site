@@ -204,3 +204,9 @@ span{
     font-size: 20px;
     color: white;
 }   
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+   padding-left: 150px;
+   padding-right: 150px;
+}
