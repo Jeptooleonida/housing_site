@@ -177,3 +177,30 @@ footer{
 span{
     color: #dda509e0;
 }
+.footer {
+    padding: 4vw 0 7vw;
+    display: flex;
+
+}
+.footer .footer-icons{
+    display: flex;
+    width: 40%;
+    align-items: center;
+}
+.footer .footer-list{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.footer .footer-list ul{
+    list-style: none;   
+}
+.footer .footer-list li{
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #707070;
+}
+.footer .footer-list ul h5{
+    font-size: 20px;
+    color: white;
+}   
