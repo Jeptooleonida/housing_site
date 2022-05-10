@@ -79,3 +79,33 @@ span{
 .small-pics img{
     width: 12.5%;
 }
+.details{
+    border-radius: 2vw;
+}
+.title{
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    margin-top: 2vw;
+    padding: 2vw;
+    font-size: 20px;
+    background-color: #fff;
+
+    
+}
+.sec-icons{
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+
+}
+.sec-icons div{
+    width: 20%;
+    text-align: center;
+    font-size: 15px;
+    padding: 1vw;
+    border-top:  1px solid   #dbdad8;
+
+}
+.car .shower .hash .house .calendar{
+    border-right: 1px solid #dbdad8;
+}
