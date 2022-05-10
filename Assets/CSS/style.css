@@ -84,6 +84,8 @@ span{
 }
 .details{
     border-radius: 2vw;
+    width: 50%;
+    margin-left: 150px;
 }
 .title{
     border-top-left-radius: 2vw;
@@ -116,11 +118,18 @@ span{
     background-color: white;
     margin-top: 30px;
     border-radius: 2vw;
+    width: 50%;
+    margin-bottom: 30px;
+    margin-left: 150px;
 }
 .desc-details{
     font-size: 15px;
     padding: 20px;
     border-bottom: 1px solid #dbdab8;
+}
+.desc-body{
+    padding: 20px;
+    font-size: medium;
 }
 footer{
     width: 100%;
