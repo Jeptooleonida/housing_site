@@ -68,11 +68,12 @@ span{
 
 }
 .pics{
-    width: 65%;
+    width: 50%;
 }
 .pics .big-pic img{
     height: auto;
     margin-bottom: 20px;
+    width: 125%;
 }
 .small-pics{
     display: flex;
@@ -81,6 +82,64 @@ span{
 }
 .small-pics img{
     width: 12.5%;
+}
+.profile{
+    background-color: white;
+    width: 35%;
+    padding: 10px;
+    height: 50%;
+}
+.profile-details{
+    padding: 10px;
+}
+.profile-details div{
+    border: 1px solid #f4f2ed;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+
+}
+.profile-details .one{
+    background-color: #ebe8e6;
+    margin-bottom: 1vw;
+    border-radius: .5vw;
+    text-align: center;
+}
+.profile-details .two{
+    margin-bottom: 1vw;
+    border-radius: .5vw;
+  
+}
+.profile-details .three{
+    margin-bottom: 1vw;
+    border-radius: .5vw;
+  
+}
+.profile-details .four{
+    margin-bottom: 1vw;
+    border-radius: .5vw;
+  
+}
+.profile-details .five{
+    margin-bottom: 1vw;
+    border-radius: .5vw;
+  
+}
+.profile-details .five{
+    height: 6vw;
+
+}
+.profile-details .six{
+    background-color: black;
+    border-top-right-radius: 2vw;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.profile-details .six i{
+    margin-left: 20px;
+    color: yellow;
+    padding-bottom: 20px;
 }
 .details{
     border-radius: 2vw;
